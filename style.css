@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* note on unit */
+/* font-size => rem */
+/* padding,margin => em */
+/* px => absoulte unit */
+/* width => em or % */
+/* vmin,vmax  */
+/* vmin => choose min between vh and vw */
+/* vmax => choose max between vh and vw */
+/* 10vmin */
+
+.container {
+  background: #60a5fa;
+  color: white;
+
+  width: 80%;
+  margin: 0 auto;
+
+  padding: 2em;
+  /* height: 300px; */
+}
+.intro-content {
+  width: 50%;
+}
